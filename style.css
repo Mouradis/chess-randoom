@@ -1,0 +1,52 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    @media all and (max-width: 480px) {
+        body {
+            background-image: url("chess.png");
+            background-size: auto;
+            background-repeat: repeat-y;
+        }
+        p {
+            text-align: center;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+        .btn {
+            padding: 50px;
+        }
+        .outputs {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .button-74 {
+            background-color: #fbeee0;
+            border: 2px solid #422800;
+            border-radius: 30px;
+            box-shadow: #422800 4px 4px 0 0;
+            color: #422800;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 0 18px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            padding: 49px;
+        }
+        .button-74:hover {
+            background-color: #fff;
+        }
+        .button-74:active {
+            box-shadow: #422800 2px 2px 0 0;
+            transform: translate(2px, 2px);
+        }
+    }
